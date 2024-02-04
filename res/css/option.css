@@ -1,0 +1,121 @@
+.root {
+    -fx-background-color: #242020;
+}
+
+* {
+    -fx-text-fill: white;
+    -fx-opacity: 0.99;
+}
+
+
+
+
+
+#save {
+    -fx-background-color: none;
+    -fx-border-color: white;
+}
+
+
+
+/* Style pour la liste déroulante de la ChoiceBox avec la classe 'fog' */
+.fog .arrow-button {
+    -fx-background-color: #242020;
+    /* Couleur d'arrière-plan de la liste déroulante */
+    -fx-text-fill: black;
+    /* Couleur du texte de la liste déroulante */
+}
+
+/* Style pour la sélection de la ChoiceBox avec la classe 'fog' */
+.fog .menu-item {
+    -fx-background-color: #242020;
+    /* Couleur de fond de l'élément sélectionné */
+    -fx-text-fill: black;
+    /* Couleur du texte de l'élément sélectionné */
+}
+
+.affichage .arrow-button {
+    -fx-background-color: #242020;
+    /* Couleur d'arrière-plan de la liste déroulante */
+    -fx-text-fill: black;
+    /* Couleur du texte de la liste déroulante */
+}
+
+/* Style pour la sélection de la ChoiceBox avec la classe 'fog' */
+.affichage .menu-item {
+    -fx-background-color: #242020;
+    /* Couleur de fond de l'élément sélectionné */
+    -fx-text-fill: black;
+    /* Couleur du texte de l'élément sélectionné */
+}
+
+/* Style pour la sélection finale de la ChoiceBox avec la classe 'fog' */
+.fog .menu-item:focused {
+    -fx-background-color: lightblue;
+    /* Couleur de fond de l'élément sélectionné */
+    -fx-text-fill: black;
+    /* Couleur du texte de l'élément sélectionné */
+}
+
+/* Style pour la sélection finale de la ChoiceBox avec la classe 'fog' */
+.affichage .menu-item:focused {
+    -fx-background-color: lightblue;
+    /* Couleur de fond de l'élément sélectionné */
+    -fx-text-fill: black;
+    /* Couleur du texte de l'élément sélectionné */
+}
+
+.fog .menu-item:armed {
+    -fx-background-color: lightblue;
+    -fx-text-fill: black;
+}
+
+/* Style par défaut pour la ChoiceBox */
+.fog {
+    -fx-background-color: #62625b;
+    /* Couleur d'arrière-plan par défaut */
+    -fx-text-fill: black;
+    /* Couleur du texte par défaut */
+}
+
+.affichage {
+    -fx-background-color: #62625b;
+    /* Couleur d'arrière-plan par défaut */
+    -fx-text-fill: black;
+    /* Couleur du texte par défaut */
+}
+
+
+.predefinedLaby {
+    -fx-background-color: #62625b;
+    /* Couleur d'arrière-plan par défaut */
+    -fx-text-fill: black;
+    /* Couleur du texte par défaut */
+}
+
+.predefinedLaby .menu-item:focused {
+    -fx-background-color: lightblue;
+    /* Couleur de fond de l'élément sélectionné */
+    -fx-text-fill: black;
+    /* Couleur du texte de l'élément sélectionné */
+}
+
+.predefinedLaby .menu-item:armed {
+    -fx-background-color: lightblue;
+    -fx-text-fill: black;
+}
+
+.predefinedLaby .arrow-button {
+    -fx-background-color: #242020;
+    /* Couleur d'arrière-plan de la liste déroulante */
+    -fx-text-fill: black;
+    /* Couleur du texte de la liste déroulante */
+}
+
+/* Style pour la sélection de la ChoiceBox avec la classe 'fog' */
+.predefinedLaby .menu-item {
+    -fx-background-color: #242020;
+    /* Couleur de fond de l'élément sélectionné */
+    -fx-text-fill: black;
+    /* Couleur du texte de l'élément sélectionné */
+}

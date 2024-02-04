@@ -1,0 +1,28 @@
+ .root {
+     -fx-background-color: #242020;
+
+ }
+
+ #main {
+     -fx-text-fill: white;
+ }
+
+ #buttonPlay,
+ #buttonOption,
+ #buttonLeave {
+     -fx-background-color: none;
+     -fx-text-fill: white;
+     -fx-font-size: 25;
+ }
+
+ #buttonPlay:hover {
+     -fx-background-color: rgb(81, 81, 81);
+ }
+
+ #buttonOption:hover {
+     -fx-background-color: rgb(81, 81, 81);
+ }
+
+ #buttonLeave:hover {
+     -fx-background-color: rgb(81, 81, 81);
+ }
